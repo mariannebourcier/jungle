@@ -58,9 +58,10 @@ gem 'bootsnap', '>= 1.4.4', require: false
 # gem 'rspec-rails'
 # end
 group :development, :test do
-  gem 'rspec-rails', '~> 5.1'
-  gem 'net-smtp', require: false
-  # ...
+  # gem 'rspec-rails', '~> 5.1'
+  # gem 'net-smtp', require: false
+  gem "cypress-rails"
+  gem 'database_cleaner-active_record'
 end
 
 group :development do
